@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.Megatron" name="Megatron Repo" version="2.4.0" provider-name="Megatron">
+<addon id="repository.Megatron" name="Megatron Repo" version="0.1" provider-name="Megatron">
 	<extension point="xbmc.addon.repository" name="Megatron Repo">
 		
 		<dir minversion="18.9.0">
@@ -27,6 +27,11 @@
             <info>https://raw.githubusercontent.com/heppen7/repository.heppen/main/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/heppen7/repository.heppen/main/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.github.com/heppen7/repository.heppen/main/zips/</datadir>
+        </dir>
+		<dir>
+            <info compressed="false">https://raw.githubusercontent.com/Tikipeter/repository.tikipeter/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Tikipeter/repository.tikipeter/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Tikipeter/repository.tikipeter/master/zips</datadir>
         </dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
