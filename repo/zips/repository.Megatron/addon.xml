@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.Megatron" name="Megatron Repo" version="2.3.0" provider-name="Megatron">
+<addon id="repository.Megatron" name="Megatron Repo" version="2.4.0" provider-name="Megatron">
 	<extension point="xbmc.addon.repository" name="Megatron Repo">
 		
 		<dir minversion="18.9.0">
@@ -22,6 +22,11 @@
             <info compressed="false">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/nexusrepo/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/nexusrepo/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/jurialmunkey/repository.jurialmunkey/master/nexusrepo/zips/</datadir>
+        </dir>
+		<dir minversion="19.0.0">
+            <info>https://raw.githubusercontent.com/heppen7/repository.heppen/main/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/heppen7/repository.heppen/main/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.github.com/heppen7/repository.heppen/main/zips/</datadir>
         </dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
