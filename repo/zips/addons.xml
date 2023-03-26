@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addons><addon id="repository.Megatron" name="Megatron Repo" version="1.11" provider-name="Megatron">
+<addons><addon id="repository.Megatron" name="Megatron Repo" version="1.12" provider-name="Megatron">
 	<extension point="xbmc.addon.repository" name="Megatron Repo">
 		
 		<dir minversion="18.9.0">
@@ -41,7 +41,7 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Megatron</summary>
-		<description>Megatron Repository - Addon Aggregator</description>
+		<description>Megatron Repository Addon Aggregator</description>
 		<platform>all</platform>
 		<assets>
 			<icon>icon.png</icon>
