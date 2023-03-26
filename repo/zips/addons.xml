@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addons><addon id="repository.megatron" name="megatron Repository" version="0.2.2" provider-name="megatron">
+<addons><addon id="repository.megatron" name="megatron Repository" version="0.2.4" provider-name="megatron">
     <extension point="xbmc.addon.repository" name="megatron Repository">
         <dir minversion="18.9.701">
             <info compressed="false">https://raw.githubusercontent.com/umbrellaplug/umbrellaplug.github.io/master/matrix/zips/addons.xml</info>
@@ -11,6 +11,7 @@
             <checksum>https://raw.githubusercontent.com/CocoJoe2411/repository.cocoscrapers/master/zips/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/CocoJoe2411/repository.cocoscrapers/master/zips/</datadir>
         </dir>
+
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary>megatron Repository</summary>
